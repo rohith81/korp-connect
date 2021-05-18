@@ -185,6 +185,12 @@ select:focus{
 .register_page{
   background-color: #ebebeb;
 }
+.register_page a {
+    font-size: 14px;
+    background-color: #186bce;
+    text-transform: capitalize;
+    color: #fff;
+}
 .register_left p{
   font-size: 12px;
   color: #bad5ef;
