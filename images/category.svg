@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="407px" height="236px" viewBox="0 0 407 236" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 21</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4(b)-Dashboard---Karvy-portfolio-details" transform="translate(-461.000000, -221.000000)">
+            <g id="Group-21" transform="translate(461.000000, 221.000000)">
+                <rect id="Rectangle" fill="#0091FF" opacity="0.05" x="0" y="0" width="407" height="236"></rect>
+                <g id="Group-30" transform="translate(18.000000, 22.000000)">
+                    <text id="Catergorywise-Allotm" font-family="OpenSans-Semibold, Open Sans" font-size="14" font-weight="500" fill="#206ECB">
+                        <tspan x="0" y="15">Catergorywise Allotment</tspan>
+                    </text>
+                    <g id="Group-26" transform="translate(0.000000, 38.000000)">
+                        <g id="Group-14" transform="translate(212.000000, 15.000000)">
+                            <g id="Group-13">
+                                <text id="Equity-(40%)" font-family="OpenSans-Semibold, Open Sans" font-size="12" font-weight="500" fill="#828792">
+                                    <tspan x="30" y="15">Equity (40%)</tspan>
+                                </text>
+                                <g id="Group-25" fill="#556080">
+                                    <rect id="Rectangle" x="0" y="0" width="20" height="20" rx="2"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-14-Copy" transform="translate(212.000000, 48.000000)">
+                            <g id="Group-13">
+                                <text id="Debt-(25%)" font-family="OpenSans-Semibold, Open Sans" font-size="12" font-weight="500" fill="#828792">
+                                    <tspan x="30" y="15">Debt (25%)</tspan>
+                                </text>
+                                <g id="Group-25" fill="#F0785A">
+                                    <rect id="Rectangle" x="0" y="0" width="20" height="20" rx="2"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-14-Copy-2" transform="translate(212.000000, 82.000000)">
+                            <g id="Group-13">
+                                <text id="Liquid-(20%)" font-family="OpenSans-Semibold, Open Sans" font-size="12" font-weight="500" fill="#828792">
+                                    <tspan x="30" y="15">Liquid (20%)</tspan>
+                                </text>
+                                <g id="Group-25" fill="#71C285">
+                                    <rect id="Rectangle" x="0" y="0" width="20" height="20" rx="2"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-14-Copy-3" transform="translate(212.000000, 115.000000)">
+                            <g id="Group-13">
+                                <text id="Others-(10%)" font-family="OpenSans-Semibold, Open Sans" font-size="12" font-weight="500" fill="#828792">
+                                    <tspan x="30" y="15">Others (10%)</tspan>
+                                </text>
+                                <g id="Group-25" fill="#F0C419">
+                                    <rect id="Rectangle" x="0" y="0" width="20" height="20" rx="2"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="pie-chart" fill-rule="nonzero">
+                            <path d="M82,72 L154,72 C151.368593,33.4354479 120.564552,2.63140692 82,0 L82,72 Z" id="Path" fill="#F0785A"></path>
+                            <path d="M133.810108,129 C145.326355,116.459922 152.772272,100.091259 154,82 L87,82 L133.810108,129 Z" id="Path" fill="#F0C419"></path>
+                            <path d="M72,74.3962303 L72,0 C31.7813333,2.72471957 0,35.961532 0,76.5887161 C0,95.8868271 7.18666667,113.508799 19.024,127 L72,74.3962303 Z" id="Path" fill="#556080"></path>
+                            <path d="M75.7926494,86 L27,135.039944 C40.4727156,146.837489 58.0705414,154 77.34221,154 C95.8258768,154 112.765272,147.411553 126,136.461815 L75.7926494,86 Z" id="Path" fill="#71C285"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
