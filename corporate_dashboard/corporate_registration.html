@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Korp Connect</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="../css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	<style type="text/css">
+		@font-face {
+		  font-family: "OpenSans-Bold";
+		  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+		}
+
+		@font-face {
+		  font-family: "OpenSans-Italic";
+		  src: url("../fonts/OpenSans-Italic.ttf") format("truetype");
+		}
+
+		@font-face {
+		  font-family: "OpenSans-SemiBold";
+		  src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+		}
+
+		@font-face {
+		  font-family: "OpenSans-Regular";
+		  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+		}
+		/* open-sans-regular - latin */
+
+		@font-face {
+		  font-family: "OpenSans-Light";
+		  src: url("../fonts/OpenSans-Light.ttf") format("truetype");
+		}
+
+		@font-face {
+		  font-family: "OpenSans-LightItalic";
+		  src: url("../fonts/OpenSans-LightItalic.ttf") format("truetype");
+		}
+	</style>
+</head>
+<body class="dashboard_page corporate_dashboard_page">
+	<div class="container-fluid">
+		<header class="d-flex justify-content-between">
+			<div class="align-items-end d-flex logo">
+				<img src="../images/logo-kc.png" alt="korp-connect-logo" />
+			</div>
+			<div class="header_right d-flex align-items-center">
+				<div class="header_profile d-flex ml-4">
+					<a href="#" class="d-flex header_profile_toggle">
+						<p class="mb-0"><span class="profile_name">Group Sites</span></p>
+						<img src="../images/dropdown.svg" alt="dropdown-icon">
+					</a>
+					<div class="profile_sub_menu">
+						<ul class="mb-0">
+                                <li><a href="http://www.karvy-analytics.com/" target="_blank">Karvy Analytics Ltd</a></li>
+                                <li><a href="http://www.karvycapital.com/" target="_blank">Karvy Capital Ltd</a></li>
+                                <li><a href="http://www.karvycommodities.com/" target="_blank">Karvy Comtrade Ltd</a></li>
+                                <li><a href="http://www.karvycomputershare.com/" target="_blank">Karvy FinTech(P) Ltd</a></li>
+                                <li><a href="https://www.kdms.in/" target="_blank">Karvy Data Management Services Ltd</a></li>
+                                <li><a href="http://www.karvyvalue.com/" target="_blank">Karvy Distribution</a></li>
+                                <li><a href="http://www.karvyfinance.com/" target="_blank">Karvy Financial Services Ltd</a></li>
+                                <li><a href="http://www.karvycurrency.com/" target="_blank">Karvy Forex &amp; Currency Private Ltd</a></li>
+                                <li><a href="http://www.karvyglobal.com/" target="_blank">Karvy Global Services</a></li>
+                                <li><a href="http://www.karvyinsights.com/" target="_blank">Karvy Insights Ltd</a></li>
+                                <li><a href="http://www.kinrep.com/" target="_blank">Karvy Insurance Repository</a></li>
+                                <li><a href="http://www.karvyinvestmentbanking.com/" target="_blank">Karvy Investor Sercices Ltd</a></li>
+                                <li><a href="https://www.karvyonline.com/" target="_blank">Karvy Online</a></li>
+                                <li><a href="http://www.karvywealth.com/" target="_blank">Karvy Private Wealth</a></li>
+                                <li><a href="http://www.karvyrealty.com/" target="_blank">Karvy Realty (India) Ltd</a></li>
+                            </ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="dashboard_inner">
+			<div class="corporate_dashboard">
+				<div class="dashboard_right pb-0">
+					<div class="dashboard_heading d-flex justify-content-between mb-3">
+						<h6 class="mb-0">CORPORATE USER REGISTRATION</h6>
+					</div>
+					<div class="dashboard_txt pt-0 corporate_registration">
+						<h6 class="mb-3 bluecolor pl-2">Profile Details</h6>
+					 	<form class="material_form mb-4 pl-2">
+					 		<div class="corporate_details_info mb-2">
+					 			<p class="corporate_details_title mb-0">PAN</p>
+					 			<span class="corporate_details_colon">:&nbsp;&nbsp;</span>
+					 			<p class="corporate_details_txt mb-0"><span class="bluecolor">AAACB3888Q</span></p>
+					 		</div>
+					 		<div class="corporate_details_info mb-2">
+					 			<p class="corporate_details_title mb-0">Name of Applicant</p>
+					 			<span class="corporate_details_colon">:&nbsp;&nbsp;</span>
+					 			<div class="row m-0 corporate_details_input">
+							        <div class="input-field m-0">
+							          <input id="register_pan" type="text" value="Baidyanath Research Foundation Ltd">
+							        </div>
+							    </div>
+					 		</div>
+					 		<div class="corporate_details_info mb-4">
+					 			<p class="corporate_details_title mb-0">Status</p>
+					 			<span class="corporate_details_colon">:&nbsp;&nbsp;</span>
+					 			<div class="row m-0 corporate_details_input">
+							        <div class="input-field m-0">
+							          <input id="register_pan" type="text" value="BODY CORPORATE">
+							        </div>
+							    </div>
+					 		</div>
+							<h6 class="mb-3 bluecolor pl-2">Login Details</h6>
+							<div class="corporate_details_info mb-2">
+					 			<p class="corporate_details_title mb-0">Select Role</p>
+					 			<span class="corporate_details_colon">:&nbsp;&nbsp;</span>
+					 			<select class="browser-default m-0 mr-3 corporate_details_input">
+								    <option value=""disabled selected>Select Status</option>
+								    <option value="1">Approver</option>
+								    <option value="2">Initiator</option>
+								</select>
+							  	<button type="submit" class="pl-3 pr-3 mr-4">Add New</button>
+					 		</div>
+							<div class="dashboard_quick_transactions">
+								<table class="responsive-table">
+							        <thead>
+							          <tr>
+							              <th>Role</th>
+							              <th>Name</th>
+							              <th>PAN</th>
+							              <th>Mobile No</th>
+							              <th>Email ID</th>
+							              <th>Action</th>
+							          </tr>
+							        </thead>
+							        <tbody>
+							          <tr>
+	                                    <td>Initiator</td>
+	                                    <td>RAKESH</td>
+	                                    <td>TGFPJ8542K</td>
+	                                    <td>9030499488</td>
+	                                    <td>rakesh.durshetti@karvy.com</td>
+	                                    <td>
+						  					<div class="dashboard_buttons d-flex">
+											  	<button type="submit" class="pl-3 pr-3 mr-4 text-capitalize">Edit</button>
+											  	<button type="submit" class="pl-3 pr-3 mr-0 text-capitalize cancel_btn">Delete</button>
+										  	</div>
+										</td>
+	                                  </tr>
+	                                  <tr>
+	                                    <td>Approver</td>
+	                                    <td>Shyam</td>
+	                                    <td>RFTPJ8542L</td>
+	                                    <td>9618220393</td>
+	                                    <td>na_nandu20@yahoo.co.in</td>
+	                                    <td>
+						  					<div class="dashboard_buttons d-flex">
+											  	<button type="submit" class="pl-3 pr-3 mr-4 text-capitalize">Edit</button>
+											  	<button type="submit" class="pl-3 pr-3 mr-0 text-capitalize cancel_btn">Delete</button>
+										  	</div>
+										</td>
+	                                  </tr>
+							        </tbody>
+						        </table>
+					        </div>
+							<h6 class="mb-3 bluecolor pl-2">Number of Approval Authentication Required</h6>
+							<select class="browser-default m-0 mb-4">
+							    <option value=""disabled>Select Approvers</option>
+							    <option value="1" selected>1</option>
+							    <option value="2">2</option>
+							</select>
+							<h6 class="mb-3 bluecolor pl-2">Upload Files </h6>
+							<select class="browser-default m-0 mb-2">
+								<option value="browser-default m-0">Select Upload File Type</option>
+								<option value="ASL">Upload Authorised Signatory List(ASL) </option>
+								<option value="BR">Upload Board Resolution(BR)</option>
+							</select>
+							<span>Note: Upload documents only in PDF, JPEG, JPG, PNG and TIF format</span>
+							<span class="d-flex">
+								<a class="mr-3" href="https://karvymfs.com/CorporateConnect/UploadFiles/BR/0b568ffe-7d9e-4917-8098-2ff60120223d_Korp Connect FAQ - 21 03 2018.pdf" target="_blank">Board Resolution</a>
+								<a href="https://karvymfs.com/CorporateConnect/UploadFiles/ASL/f6f560c9-70bf-45df-be6f-312aad795bc3_Korp Connect FAQ - 21 03 2018.pdf" target="_blank">Authorised Signatory List</a>
+							</span>
+							<div class="onboarding_upload mt-4 d-flex mb-5">
+								<div class="row m-0 mr-4 w-100">
+									<div class="form-group d-flex mb-0 align-items-center">
+										<input type="file" required="required"/>
+									</div>
+							    </div>
+							    <button type="submit" class="m-0 pl-3 pr-3 text-capitalize">Upload</button>
+							</div>
+						  	<div class="dashboard_buttons d-flex justify-content-center text-center">
+							  	<button type="submit">SUBMIT</button>
+						    </div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="../js/jquery-1.10.2.js"></script>  
+  <script src="../js/jquery-ui.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	
+    <!-- Compiled and minified JavaScript -->
+    <script src="../js/materialize.min.js"></script>
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$('.dashboard_left .dashboard_left_category').click(function(e){
+  			e.preventDefault();
+  			$('.dashboard_left_category').removeClass('active');
+  			$('.dashboard_left .sub_links').removeClass('active');
+  			$(this).addClass('active');
+  			$(this).next().addClass('active');
+  		});
+
+  		$('.sub_links a').click(function(){
+  			$('.sub_links a').removeClass('link_active');
+  			$(this).addClass('link_active');
+  		});
+
+  		$('.header_transact_toggle').click(function(){
+  			$('.transact_sub_menu').toggle();
+  			$('.profile_sub_menu').hide();
+  		});
+
+  		$('.header_profile_toggle').click(function(e){
+  			e.preventDefault();
+  			$('.profile_sub_menu').toggle();
+  			$('.transact_sub_menu').hide();
+  		});
+
+  		$('.mobile_toggle').click(function(){
+  			$('.mobile_sidenav').addClass('active');
+  			$('body').addClass('active');
+  		});
+
+  		$('.dashboard_left_close a').click(function(e){
+  			e.preventDefault();
+  			$('.mobile_sidenav').removeClass('active');
+  			$('body').removeClass('active');
+  		});
+  	});
+  </script>
+</body>
+</html>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Korp Connect</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="../css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	<style type="text/css">
+		@font-face {
+		  font-family: "OpenSans-Bold";
+		  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+		}
+
+		@font-face {
+		  font-family: "OpenSans-Italic";
+		  src: url("../fonts/OpenSans-Italic.ttf") format("truetype");
+		}
+
+		@font-face {
+		  font-family: "OpenSans-SemiBold";
+		  src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+		}
+
+		@font-face {
+		  font-family: "OpenSans-Regular";
+		  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+		}
+		/* open-sans-regular - latin */
+
+		@font-face {
+		  font-family: "OpenSans-Light";
+		  src: url("../fonts/OpenSans-Light.ttf") format("truetype");
+		}
+
+		@font-face {
+		  font-family: "OpenSans-LightItalic";
+		  src: url("../fonts/OpenSans-LightItalic.ttf") format("truetype");
+		}
+	</style>
+</head>
+<body class="dashboard_page corporate_dashboard_page">
+	<div class="container-fluid">
+		<header class="d-flex justify-content-between">
+			<div class="align-items-end d-flex logo">
+				<img src="../images/logo-kc.png" alt="korp-connect-logo" />
+			</div>
+			<div class="header_right d-flex align-items-center">
+				<div class="header_profile d-flex ml-4">
+					<a href="#" class="d-flex header_profile_toggle">
+						<img src="../images/user_profile_icon.svg" alt="user-profile-icon">
+						<p class="mb-0"><span class="profile_name">Sujata Patil</span><br><span class="profile_role">Initiator</span></p>
+						<img src="../images/dropdown.svg" alt="dropdown-icon">
+					</a>
+					<div class="profile_sub_menu">
+						<ul class="mb-0">
+							<li class="mobile_profile_name"><a><span class="profile_name">Sujata Patil</span><br><span class="profile_role">Initiator</span></a></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="dashboard_inner">
+			<div class="corporate_dashboard">
+				<div class="dashboard_right pb-0">
+					<div class="dashboard_heading d-flex justify-content-between mb-3">
+						<h6 class="mb-0">CORPORATE DETAILS</h6>
+					</div>
+					<div class="dashboard_txt pt-0 get_corporate_details">
+						<h6 class="mb-3 bluecolor pl-2">Profile Details</h6>
+					 	<form class="material_form mb-4 pl-2">
+					 		<div class="corporate_details_info mb-2">
+					 			<p class="corporate_details_title mb-0">PAN</p>
+					 			<span class="corporate_details_colon">:&nbsp;&nbsp;</span>
+					 			<p class="corporate_details_txt mb-0"><span class="bluecolor">AAACB3888Q</span></p>
+					 		</div>
+					 		<div class="corporate_details_info mb-2">
+					 			<p class="corporate_details_title mb-0">Company/Applicant Name</p>
+					 			<span class="corporate_details_colon">:&nbsp;&nbsp;</span>
+					 			<p class="corporate_details_txt mb-0"><span class="bluecolor">Baidyanath Research Foundation Ltd</span></p>
+					 		</div>
+					 		<div class="corporate_details_info mb-2">
+					 			<p class="corporate_details_title mb-0">Status</p>
+					 			<span class="corporate_details_colon">:&nbsp;&nbsp;</span>
+					 			<p class="corporate_details_txt mb-0"><span class="bluecolor">BODY CORPORATE</span></p>
+					 		</div>
+							<h6 class="mb-3 bluecolor mt-4">Corporate Investor Details</h6>
+							<div class="dashboard_quick_transactions">
+								<table class="responsive-table">
+							        <thead>
+							          <tr>
+							              <th>Employee Name</th>
+							              <th>Mobile No</th>
+							              <th>Employee Type</th>
+							              <th>Email ID</th>
+							          </tr>
+							        </thead>
+							        <tbody>
+							          <tr>
+	                                    <td>RAKESH</td>
+	                                    <td>9030499488</td>
+	                                    <td>Initiator</td>
+	                                    <td>rakesh.durshetti@karvy.com</td>
+	                                  </tr>
+	                                  <tr>
+	                                    <td>Shyam</td>
+	                                    <td>9618220393</td>
+	                                    <td>Approver</td>
+	                                    <td>na_nandu20@yahoo.co.in</td>
+	                                  </tr>
+							        </tbody>
+						        </table>
+					        </div>
+							<h6 class="mb-3 bluecolor mt-4">Transaction Config</h6>
+							<div class="corporate_details_info mb-2">
+					 			<p class="corporate_details_title mb-0">Approver Level</p>
+					 			<span class="corporate_details_colon">:&nbsp;&nbsp;</span>
+					 			<p class="corporate_details_txt mb-0"><span class="bluecolor">1</span></p>
+					 		</div>
+					 		<div class="corporate_details_info mb-2">
+					 			<p class="corporate_details_title mb-0">Transaction Limit</p>
+					 			<span class="corporate_details_colon">:&nbsp;&nbsp;</span>
+					 			<p class="corporate_details_txt mb-0"><span class="bluecolor">999999999999</span></p>
+					 		</div>
+					 		<div class="corporate_details_info mb-2">
+					 			<p class="corporate_details_title mb-0">Maker Status</p>
+					 			<span class="corporate_details_colon">:&nbsp;&nbsp;</span>
+					 			<p class="corporate_details_txt mb-0"><span class="bluecolor">Approved</span></p>
+					 		</div>
+					 		<div class="corporate_details_info mb-5">
+					 			<p class="corporate_details_title mb-0">Maker Comments</p>
+					 			<span class="corporate_details_colon">:&nbsp;&nbsp;</span>
+					 			<p class="corporate_details_txt mb-0"><span class="bluecolor"></span></p>
+					 		</div>
+					 		<div class="dashboard_buttons d-flex justify-content-center text-center mb-4">
+							  	<button type="submit" class="pl-3 pr-3 mr-4 cancel_btn">SHOW ASL</button>
+							  	<button type="submit" class="pl-3 pr-3 mr-4">DOWNLOAD ASL</button>
+							  	<button type="submit" class="pl-3 pr-3 mr-4 cancel_btn">SHOW BR</button>
+							  	<button type="submit" class="pl-3 pr-3 mr-4">DOWNLOAD BR</button>
+							  	<button type="submit" class="pl-3 pr-3 mr-4 cancel_btn">SHOW ASLD</button>
+							  	<button type="submit" class="pl-3 pr-3 mr-4">DOWNLOAD ASLD</button>
+						    </div>
+						    <div class="corporate_document d-flex justify-content-center mb-5">
+						    	<iframe width="470" height="500" src="https://karvymfs.com/CorporateConnect/UploadFiles/ASLD/93c3e537-b465-4284-a416-9f3d979204ef_AuthorizationForm New.pdf"></iframe>
+						    </div>
+						  	<div class="dashboard_buttons d-flex justify-content-center text-center">
+							  	<button type="submit" class="mr-4">Approve</button>
+							  	<button type="submit" class="mr-4">Reject</button>
+							  	<button type="submit" class="mr-4">Re-Submit</button>
+						    </div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="../js/jquery-1.10.2.js"></script>  
+  <script src="../js/jquery-ui.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	
+    <!-- Compiled and minified JavaScript -->
+    <script src="../js/materialize.min.js"></script>
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$('.dashboard_left .dashboard_left_category').click(function(e){
+  			e.preventDefault();
+  			$('.dashboard_left_category').removeClass('active');
+  			$('.dashboard_left .sub_links').removeClass('active');
+  			$(this).addClass('active');
+  			$(this).next().addClass('active');
+  		});
+
+  		$('.sub_links a').click(function(){
+  			$('.sub_links a').removeClass('link_active');
+  			$(this).addClass('link_active');
+  		});
+
+  		$('.header_transact_toggle').click(function(){
+  			$('.transact_sub_menu').toggle();
+  			$('.profile_sub_menu').hide();
+  		});
+
+  		$('.header_profile_toggle').click(function(e){
+  			e.preventDefault();
+  			$('.profile_sub_menu').toggle();
+  			$('.transact_sub_menu').hide();
+  		});
+
+  		$('.mobile_toggle').click(function(){
+  			$('.mobile_sidenav').addClass('active');
+  			$('body').addClass('active');
+  		});
+
+  		$('.dashboard_left_close a').click(function(e){
+  			e.preventDefault();
+  			$('.mobile_sidenav').removeClass('active');
+  			$('body').removeClass('active');
+  		});
+  	});
+  </script>
+</body>
+</html>

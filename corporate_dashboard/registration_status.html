@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Korp Connect</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="../css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	<style type="text/css">
+		@font-face {
+		  font-family: "OpenSans-Bold";
+		  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+		}
+
+		@font-face {
+		  font-family: "OpenSans-Italic";
+		  src: url("../fonts/OpenSans-Italic.ttf") format("truetype");
+		}
+
+		@font-face {
+		  font-family: "OpenSans-SemiBold";
+		  src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+		}
+
+		@font-face {
+		  font-family: "OpenSans-Regular";
+		  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+		}
+		/* open-sans-regular - latin */
+
+		@font-face {
+		  font-family: "OpenSans-Light";
+		  src: url("../fonts/OpenSans-Light.ttf") format("truetype");
+		}
+
+		@font-face {
+		  font-family: "OpenSans-LightItalic";
+		  src: url("../fonts/OpenSans-LightItalic.ttf") format("truetype");
+		}
+	</style>
+</head>
+<body class="dashboard_page corporate_dashboard_page">
+	<div class="container-fluid">
+		<header class="d-flex justify-content-between">
+			<div class="align-items-end d-flex logo">
+				<img src="../images/logo-kc.png" alt="korp-connect-logo" />
+			</div>
+			<div class="header_right d-flex align-items-center">
+				<div class="header_profile d-flex ml-4">
+					<a href="#" class="d-flex header_profile_toggle">
+						<img src="../images/user_profile_icon.svg" alt="user-profile-icon">
+						<p class="mb-0"><span class="profile_name">Sujata Patil</span><br><span class="profile_role">Initiator</span></p>
+						<img src="../images/dropdown.svg" alt="dropdown-icon">
+					</a>
+					<div class="profile_sub_menu">
+						<ul class="mb-0">
+							<li class="mobile_profile_name"><a><span class="profile_name">Sujata Patil</span><br><span class="profile_role">Initiator</span></a></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="dashboard_inner">
+			<div class="corporate_dashboard">
+				<div class="dashboard_right pb-0">
+					<div class="dashboard_heading d-flex justify-content-between mb-3">
+						<h6 class="mb-0">CORPORATE DASHBOARD SUMMARY</h6>
+						<div class="dashboard_heading_right d-flex">
+							<a href="#" download>Download Registration Excel</a>
+						</div>
+					</div>
+					<div class="dashboard_txt pt-0">
+						<div class="dashboard_account_statement_heading d-flex mb-4">
+							<a href="registration_status.html" class="active">Registration Status</a>
+							<a href="registration_status.html">Transaction Details</a>
+							<a href="registration_status.html">Client Requests</a>
+						</div>
+						<h6 class="mb-3 text-dark pl-3">Registration Details</h6>
+					 	<form class="material_form row mb-4">
+					 		<div class="col-sm-12 col-md-6 col-lg-3">
+								<div class="row">
+							        <div class="input-field">
+							          <input id="register_pan" type="text">
+							          <label for="register_pan">Enter PAN</label>
+							        </div>
+							    </div>
+						    </div>
+						    <div class="col-sm-12 col-md-6 col-lg-3">
+						    	<div class="row">
+							        <div class="input-field">
+							          <input id="reg_from" type="text">
+							          <label for="reg_from" class="active">Select From Date</label>
+							          <img src="../images/calendar.png">
+							        </div>
+							    </div>
+						    </div>
+						    <div class="col-sm-12 col-md-6 col-lg-3">
+						    	<div class="row">
+							        <div class="input-field">
+							          <input id="reg_to" type="text">
+							          <label for="reg_to" class="active">Select To Date</label>
+							          <img src="../images/calendar.png">
+							        </div>
+							    </div>
+						    </div>
+						    <div class="col-sm-12 col-md-6 col-lg-3">
+								<select class="browser-default mb-3">
+								    <option value=""disabled selected>Select Status</option>
+								    <option value="1">Option 1</option>
+								    <option value="2">Option 2</option>
+								</select>
+							</div>
+						  	<div class="dashboard_buttons d-flex justify-content-center text-center">
+							  	<button type="submit" class="mr-4">SUBMIT</button>
+						      	<button class="cancel_btn">RESET</button>
+						    </div>
+						</form>
+						<div class="dashboard_quick_transactions">
+							<table class="responsive-table">
+						        <thead>
+						          <tr>
+						              <th>Parent PAN</th>
+						              <th>Applicant Name</th>
+						              <th>PAN</th>
+						              <th>Date</th>
+						              <th>Reference No.</th>
+						              <th>Maker Status</th>
+						              <th>Checker Status</th>
+						              <th>Final Status</th>
+						              <th>Corporate Status</th>
+						          </tr>
+						        </thead>
+						        <tbody>
+						          <tr>
+						          	<td>AAACT58258</td>
+						          	<td><a href="#">A R P AUTO PARYS PVT LTD</a></td>
+						          	<td>AAACT58258</td>
+						          	<td>20/12/2019</td>
+						          	<td>990912497</td>
+						          	<td>Pending</td>
+						          	<td>Pending</td>
+						          	<td>Pending</td>
+						          	<td>COMPANY</td>
+						          </tr>
+						          <tr>
+						          	<td>AAACT58258</td>
+						          	<td><a href="#">YOGESH BHUPENDRA PATEL HUF</a></td>
+						          	<td>AAACT58258</td>
+						          	<td>20/12/2019</td>
+						          	<td>990912497</td>
+						          	<td>Pending</td>
+						          	<td>Pending</td>
+						          	<td>Pending</td>
+						          	<td>COMPANY</td>
+						          </tr>
+						          <tr>
+						          	<td>AAACT58258</td>
+						          	<td><a href="#">A R P AUTO PARYS PVT LTD</a></td>
+						          	<td>AAACT58258</td>
+						          	<td>20/12/2019</td>
+						          	<td>990912497</td>
+						          	<td>Pending</td>
+						          	<td>Pending</td>
+						          	<td>Pending</td>
+						          	<td>COMPANY</td>
+						          </tr>
+						          <tr>
+						          	<td>AAACT58258</td>
+						          	<td><a href="#">YOGESH BHUPENDRA PATEL HUF</a></td>
+						          	<td>AAACT58258</td>
+						          	<td>20/12/2019</td>
+						          	<td>990912497</td>
+						          	<td>Pending</td>
+						          	<td>Pending</td>
+						          	<td>Pending</td>
+						          	<td>COMPANY</td>
+						          </tr>
+						          <tr>
+						          	<td>AAACT58258</td>
+						          	<td><a href="#">A R P AUTO PARYS PVT LTD</a></td>
+						          	<td>AAACT58258</td>
+						          	<td>20/12/2019</td>
+						          	<td>990912497</td>
+						          	<td>Pending</td>
+						          	<td>Pending</td>
+						          	<td>Pending</td>
+						          	<td>COMPANY</td>
+						          </tr>
+						          <tr>
+						          	<td>AAACT58258</td>
+						          	<td><a href="#">YOGESH BHUPENDRA PATEL HUF</a></td>
+						          	<td>AAACT58258</td>
+						          	<td>20/12/2019</td>
+						          	<td>990912497</td>
+						          	<td>Pending</td>
+						          	<td>Pending</td>
+						          	<td>Pending</td>
+						          	<td>COMPANY</td>
+						          </tr>
+						        </tbody>
+					        </table>
+				        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="../js/jquery-1.10.2.js"></script>  
+  <script src="../js/jquery-ui.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	
+    <!-- Compiled and minified JavaScript -->
+    <script src="../js/materialize.min.js"></script>
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$('.dashboard_left .dashboard_left_category').click(function(e){
+  			e.preventDefault();
+  			$('.dashboard_left_category').removeClass('active');
+  			$('.dashboard_left .sub_links').removeClass('active');
+  			$(this).addClass('active');
+  			$(this).next().addClass('active');
+  		});
+
+  		$('.sub_links a').click(function(){
+  			$('.sub_links a').removeClass('link_active');
+  			$(this).addClass('link_active');
+  		});
+
+  		$('.header_transact_toggle').click(function(){
+  			$('.transact_sub_menu').toggle();
+  			$('.profile_sub_menu').hide();
+  		});
+
+  		$('.header_profile_toggle').click(function(e){
+  			e.preventDefault();
+  			$('.profile_sub_menu').toggle();
+  			$('.transact_sub_menu').hide();
+  		});
+
+  		$('.mobile_toggle').click(function(){
+  			$('.mobile_sidenav').addClass('active');
+  			$('body').addClass('active');
+  		});
+
+  		$('.dashboard_left_close a').click(function(e){
+  			e.preventDefault();
+  			$('.mobile_sidenav').removeClass('active');
+  			$('body').removeClass('active');
+  		});
+  	});
+  </script>
+</body>
+</html>
