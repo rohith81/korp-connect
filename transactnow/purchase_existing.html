@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Korp Connect</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="../css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	<style type="text/css">
+		@font-face {
+		  font-family: "OpenSans-Bold";
+		  src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
+		}
+
+		@font-face {
+		  font-family: "OpenSans-Italic";
+		  src: url("../fonts/OpenSans-Italic.ttf") format("truetype");
+		}
+
+		@font-face {
+		  font-family: "OpenSans-SemiBold";
+		  src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
+		}
+
+		@font-face {
+		  font-family: "OpenSans-Regular";
+		  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+		}
+		/* open-sans-regular - latin */
+
+		@font-face {
+		  font-family: "OpenSans-Light";
+		  src: url("../fonts/OpenSans-Light.ttf") format("truetype");
+		}
+
+		@font-face {
+		  font-family: "OpenSans-LightItalic";
+		  src: url("../fonts/OpenSans-LightItalic.ttf") format("truetype");
+		}
+	</style>
+</head>
+<body class="dashboard_page">
+	<div class="container-fluid">
+		<header class="d-flex justify-content-between">
+			<div class="align-items-end d-flex logo">
+				<img src="../images/logo-kc.png" alt="korp-connect-logo" />
+			</div>
+			<div class="header_right d-flex align-items-center">
+				<div class="header_transact">
+					<a class="header_transact_toggle" href="#"><span>Transact Now</span> <img class="transact_mobile" src="../images/transact_mobile.png"> <img class="ml-2" src="../images/white_dropdown.png"></a>
+					<div class="transact_sub_menu">
+						<ul class="mb-0">
+                            <li><a href="../transactnow/purchase_new.html">Purchase (New Folio)</a></li>
+                            <li><a href="../transactnow/purchase_existing.html">Purchase (Existing Folio)</a></li>
+                            <li><a href="../transactnow/switch.html">Switch</a></li>
+                            <li><a href="../transactnow/redemption.html">Redemption</a></li>
+                            <li><a href="../transactnow/transact_bulk_uploads.html">Bulk Uploads</a></li>
+                            <li><a href="../transactnow/quick_transactions.html">Quick Transactions</a></li>
+                        </ul>
+					</div>
+				</div>
+				<div class="header_profile d-flex ml-4">
+					<a href="#" class="d-flex header_profile_toggle">
+						<img src="../images/user_profile_icon.svg" alt="user-profile-icon">
+						<p class="mb-0"><span class="profile_name">Sujata Patil</span><br><span class="profile_role">Initiator</span></p>
+						<img src="../images/dropdown.svg" alt="dropdown-icon">
+					</a>
+					<div class="profile_sub_menu">
+						<ul class="mb-0">
+							<li class="mobile_profile_name"><a><span class="profile_name">Sujata Patil</span><br><span class="profile_role">Initiator</span></a></li>
+                            <li><a href="#">Logout</a></li>
+                        </ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="dashboard_inner">
+			<div class="dashboard_header mb-4 d-flex justify-content-between">
+				<form class="material_form">
+					 <select class="browser-default">
+					    <option value="1" selected>AAAACC014576- AHDKJDKKSJD</option>
+					    <option value="2">AAAACC014576- AHDKJDKKSJD</option>
+					  </select>
+				</form>
+				<a href="#" class="d-flex">ADD COMPANY</a>
+			</div>
+			<div class="dashboard_info">
+				<div class="row">
+					<div class="col-sm-12 col-md-5 col-lg-3 mobile_sidenav">
+						<div class="dashboard_left">
+							<ul>
+								<li class="dashboard_left_close"><a href="#"><img src="../images/close.svg"></a></li>
+			                    <li><a class="dashboard_left_category" href="#">My Dashboard<img src="../images/dropdown.svg"></a>
+			                    	<div class="sub_links">
+			                            <ul>
+			                                <li><a href="../mydashboard/transaction_summary.html">Transaction Summary</a></li>
+			                                <li><a href="../mydashboard/karvy_portfolio.html">Karvy Portfolio</a></li>
+			                                <li><a href="../mydashboard/external_portfolio.html">External portfolio </a></li>
+			                            </ul>
+			                        </div>
+			                    </li>
+			                    <li><a class="active dashboard_left_category" href="#">Transact Now <img src="../images/dropdown.svg"></a>
+			                        <div class="sub_links active">
+		                                <ul>
+		                                    <li><a href="../transactnow/purchase_new.html">Purchase (New Folio)</a></li>
+		                                    <li><a class="link_active" href="../transactnow/purchase_existing.html">Purchase (Existing Folio)</a></li>
+		                                    <li><a href="../transactnow/switch.html">Switch</a></li>
+		                                    <li><a href="../transactnow/redemption.html">Redemption</a></li>
+		                                    <li><a href="../transactnow/transact_bulk_uploads.html">Bulk Uploads</a></li>
+		                                    <li><a href="../transactnow/quick_transactions.html">Quick Transactions</a></li>
+		                                </ul>
+		                            </div>
+			                    </li>
+                    			<li><a class="dashboard_left_category" href="#">Account Settings  <img src="../images/dropdown.svg"></a>
+                    				<div class="sub_links">
+				                        <ul>
+				                          <li><a href="../account_settings/user_roles.html">User Roles</a></li>
+				                          <li><a href="../account_settings/add_company.html">Add Company</a></li>
+				                          <li><a href="../account_settings/change_password.html">Change Password</a></li>
+				                          <li><a href="../account_settings/configure_fund.html">Configure Fund</a></li>
+				                        </ul>
+				                    </div>
+                    			</li>
+			                    
+			                    <li><a class="dashboard_left_category" href="#">Account Information  <img src="../images/dropdown.svg"></a>
+			                    	<div class="sub_links">
+				                        <ul>
+				                          <li><a href="../account_info/latest_transactions.html">Latest Transactions</a></li>
+				                          <li><a href="../account_info/fund_transactions.html">Fund Transactions</a></li>
+				                          <li><a href="../account_info/account_statement.html">Account Statement</a></li>
+				                          <li><a href="../account_info/capital_gain.html">Capital Gain Statement</a></li>
+				                          <li><a href="../account_info/investor_profile.html">Investor Profile</a></li>
+				                        </ul>
+				                    </div>
+			                    </li>
+			                    <li><a href="../bulk_approvers/bulk_approvers.html">Bulk Approvals</a></li>
+			                    <li><a class="dashboard_left_category" href="#">Nav Calculation  <img src="../images/dropdown.svg"></a>
+				                    <div class="sub_links">
+				                        <ul>
+				                          <li><a href="../nav_calculation/latest_nav.html">Latest NAV</a></li>
+				                          <li><a href="../nav_calculation/historical_nav.html">Historical NAV</a></li>
+				                        </ul>
+				                    </div>
+				                </li>
+			                </ul>
+						</div>
+					</div>
+					<div class="col-sm-12 col-lg-9">
+						<div class="dashboard_right">
+							<div class="dashboard_mobile_right d-flex justify-content-between">
+								<h6>Transact Now</h6>
+								<img src="../images/menu.svg" class="mobile_toggle">
+							</div>
+							<div class="dashboard_heading d-flex justify-content-between mb-3">
+								<h6 class="mb-0">PURCHASE (EXISTING FOLIO)
+									<span>Purchasing in AMCs not yet Invested</span>
+								</h6>
+								<div class="dashboard_heading_right d-flex">
+									<p class="mr-4 mb-0">KYC <span>(verified)</span></p>
+									<p class="mb-0">FATCA <span>(verified)</span></p>
+								</div>
+							</div>
+							<div class="dashboard_processing">
+								<div class="dashboard_dot_section d-flex justify-content-between align-items-center">                            
+	                                <div class="start-dot"></div>
+	                                <div class="plain-line"></div>
+	                                <div class="plain-dot"></div>
+	                                <div class="plain-line"></div>
+	                                <div class="plain-dot"></div>
+	                                <div class="plain-line"></div>
+	                                <div class="plain-dot"></div>
+                        		</div>
+                        		<div class="dashboard_name_section d-flex justify-content-between align-items-center">
+		                            <div class="mt-1 active">
+		                                <p class="name mb-0">Select</p>
+		                                <p class="name mb-0">Folio</p>
+		                            </div>
+		                            <div class="mt-1 ml-4">
+	                                    <p class="name mb-0">Select</p>
+	                                    <p class="name mb-0">Scheme</p>
+	                                </div>
+	                                <div class="mt-1 ml-3">
+                                        <p class="name mb-0">Investment</p>
+                                        <p class="name mb-0">Through</p>
+                                    </div>
+                                    <div class="mt-1">
+                                        <p class="name mb-0">Select</p>
+                                        <p class="name mb-0">Payment</p>
+                                    </div>
+		                        </div>
+							</div>
+							<div class="dashboard_txt dashboard_create_folio">
+								<form class="material_form">
+									  <label class="mb-4">
+									    <input type="checkbox" class="filled-in" />
+									    <span><b class="text-dark">UBO Disclaimer</b><br>I/We acknowledge and confirm that the information provided above is true and correct to the best of my/our knowledge and belief. In case of any the above specified information is found to be false or untrue or misleading or misrepresenting, I/We am/are aware that I/We may be liable for it. I/We also undertae to keep you [KFPL/Fund/AMC/Other participating entities] informed in writing about any changes/modification to the above information in future and also undertake to provide any other additional information as may be required at your/Fund's end or by domestic or overseas regulators/tax authorities.</span>
+									  </label>
+									  <h6 class="mb-3 mt-0">Select Folio</h6>
+									 <select class="browser-default mb-3">
+									    <option value=""disabled selected>Select Fund</option>
+									    <option value="1">AAAACC014576- AHDKJDKKSJD</option>
+									    <option value="2">AAAACC014576- AHDKJDKKSJD</option>
+									  </select>
+									  <select class="browser-default mb-3">
+									    <option value=""disabled selected>Select Folio</option>
+									    <option value="1">AAAACC014576- AHDKJDKKSJD</option>
+									    <option value="2">AAAACC014576- AHDKJDKKSJD</option>
+									  </select>
+									  <label class="mb-4">
+									    <span><b class="text-dark">Disclaimer: &nbsp;</b>Selection of existing fund/folio is mandatory for investment in new fund/scheme, i.e existing bank details will be captured for new folio.</span>
+									  </label>
+									  <button type="submit">CONTINUE</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="../js/jquery-1.10.2.js"></script>  
+  <script src="../js/jquery-ui.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	
+    <!-- Compiled and minified JavaScript -->
+    <script src="../js/materialize.min.js"></script>
+  <script type="text/javascript">
+  	$(document).ready(function(){
+  		$('.dashboard_left .dashboard_left_category').click(function(e){
+  			e.preventDefault();
+  			$('.dashboard_left_category').removeClass('active');
+  			$('.dashboard_left .sub_links').removeClass('active');
+  			$(this).addClass('active');
+  			$(this).next().addClass('active');
+  		});
+
+  		$('.sub_links a').click(function(){
+  			$('.sub_links a').removeClass('link_active');
+  			$(this).addClass('link_active');
+  		});
+
+  		$('.header_transact_toggle').click(function(){
+  			$('.transact_sub_menu').toggle();
+  			$('.profile_sub_menu').hide();
+  		});
+
+  		$('.header_profile_toggle').click(function(e){
+  			e.preventDefault();
+  			$('.profile_sub_menu').toggle();
+  			$('.transact_sub_menu').hide();
+  		});
+
+  		$('.mobile_toggle').click(function(){
+  			$('.mobile_sidenav').addClass('active');
+  			$('body').addClass('active');
+  		});
+
+  		$('.dashboard_left_close a').click(function(e){
+  			e.preventDefault();
+  			$('.mobile_sidenav').removeClass('active');
+  			$('body').removeClass('active');
+  		});
+  	});
+  </script>
+</body>
+</html>
