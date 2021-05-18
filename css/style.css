@@ -185,7 +185,7 @@ select:focus{
 .register_page{
   background-color: #ebebeb;
 }
-.register_page a {
+.register_page a.btn {
     font-size: 14px;
     background-color: #186bce;
     text-transform: capitalize;
