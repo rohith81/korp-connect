@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Korp Connect</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="../css/materialize.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+</head>
+<body class="onboarding_body">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 col-md-9 col-lg-7">
+				<div class="onboarding_inner">
+					<div class="logo">
+						<img src="../images/logo-kc@2x.png" alt="korp-konnect-logo">
+					</div>
+					<div class="onboarding_inner_info">
+						<div class="onboarding_content">
+							<div class="onboarding_left min_approvers">
+								<h5>USER MANAGEMENT</h5>
+								<form class="material_form col-sm-12 d-flex align-items-end mb-4">
+									<div class="row m-0">
+								        <div class="input-field m-0">
+								          <input id="onboaring_minapprovers" type="text">
+								          <label for="onboaring_minapprovers">Minimum No. of Approvers</label>
+								        </div>
+								    </div>
+								    <p class="mb-2 ml-3">Enter minimum number of approvers required for approving a transaction.</p>
+								</form>
+								<table class="responsive-table material_form">
+							        <thead>
+							          <tr>
+							              <th>Name</th>
+							              <th>PAN</th>
+							              <th>Mobile Number</th>
+							              <th>Email ID</th>
+							              <th>Role</th>
+							              <th></th>
+							          </tr>
+							        </thead>
+							        <tbody>
+							          <tr>
+							          	<td>
+							          		<div class="row m-0">
+										        <div class="input-field m-0">
+										          <input id="user_name" type="text">
+										          <label for="user_name">Name</label>
+										        </div>
+										    </div>
+							          	</td>
+							          	<td>
+							          		<div class="row m-0">
+										        <div class="input-field m-0">
+										          <input id="user_pan" type="text">
+										          <label for="user_pan">PAN Number</label>
+										        </div>
+										    </div>
+							          	</td>
+							          	<td>
+							          		<div class="row m-0">
+										        <div class="input-field m-0">
+										          <input id="user_no" type="text">
+										          <label for="user_no">Mobile Number</label>
+										        </div>
+										    </div>
+							          	</td>
+							          	<td>
+							          		<div class="row m-0">
+										        <div class="input-field m-0">
+										          <input id="user_mail" type="text">
+										          <label for="user_mail">Email ID</label>
+										        </div>
+										    </div>
+							          	</td>
+							          	<td>
+							          		<select class="browser-default">
+											    <option value=""disabled selected>Select Role</option>
+											    <option value="1">Admin</option>
+											    <option value="2">Approver</option>
+											</select>
+							          	</td>
+							          	<td><img src="../images/delete.png"></td>
+							          </tr>
+							        </tbody>
+							      </table>
+					          	  <a href="#" class="min_approvers_add mb-3">+ Add More</a>
+							  	<div class="onboarding_left_bottom">
+									<a href="#">Cancel</a>
+									<div class="right_buttons">
+										<a href="screen1.html"><img src="../images/back.svg"> Back</a>
+										<a href="screen3.html" class="next_btn">NEXT</a>
+									</div>
+								</div>
+							</div>
+							<div class="onboarding_right">
+								<div class="onboarding_right_content">
+									<ul>
+										<li class="visited"><span><img src="../images/tick.png"></span><h6>CORPORATE INFORMATION</h6></li>
+										<li class="active"><span>2</span><h6>USER MANAGEMENT</h6></li>
+										<li><span>3</span><h6>ASL & BR DOCS</h6></li>
+										<li><span>4</span><h6>SELECT ADMIN</h6></li>
+										<li><span>5</span><h6>AUTHORIZATION LETTER</h6></li>
+									</ul>
+								</div>
+								<!-- Below is the Code for Mobile View for Links -->
+								<div class="onboarding_mobile_links">
+									<ul>
+										<li class="active"></li>
+										<li class="active"></li>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	
+    <!-- Compiled and minified JavaScript -->
+    <script src="../js/materialize.min.js"></script>
+</body>
+</html>
